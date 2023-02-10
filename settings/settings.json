@@ -1,0 +1,60 @@
+{
+    "workspace": {
+        "axis": false,
+        "sensitivity": 0.5,
+        "background": {
+            "r": 195,
+            "g": 195,
+            "b": 195
+        },
+        "camera": {
+            "position": {
+                "x": 20,
+                "y": -10,
+                "z": 20
+            },
+            "angle": {
+                "yaw": 45,
+                "pitch": -45,
+                "roll": 0
+            }
+        },
+        "trajectory":
+        {
+            "need": false,
+            "marker": "sphere",
+            "distance": 0.5,
+            "scale": 0.0005,
+            "color": {
+                "r": 0,
+                "g": 0,
+                "b": 255
+            }
+        }
+    },
+    "polygon": {
+        "image_name": "./map/map.jpg",
+        "scale": {
+            "x": 12,
+            "y": 12,
+            "z": 12
+        }
+    },
+    "objects": {
+        "path": "./objects",
+        "color": {
+            "r": 86,
+            "g": 86,
+            "b": 86
+        },
+        "scale": {
+            "x": 0.01,
+            "y": 0.01,
+            "z": 0.01
+        }
+    },
+    "server": {
+        "ip": "10.211.55.5",
+        "port": 9090
+    }
+}
